@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@admin/*": [
+        "admin/*"
+      ],
+      "@authentication/*": [
+        "authentication/*"
+      ],
+      "@ecommerce/*": [
+        "ecommerce/*"
+      ],
+      "@core/*": [
+        "@core/*"
+      ],
+      "@store/*": [
+        "@store/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
